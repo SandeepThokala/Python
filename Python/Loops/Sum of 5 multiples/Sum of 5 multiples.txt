@@ -1,0 +1,17 @@
+#Write a function that takes in 2 numbers.
+#Find out all the numbers divisible by 5 between those numbers and add them up.
+#Return the sum.
+
+
+
+def sum_numbers (n,m) :
+
+    sum = 0
+    for i in range(n,m+1):
+
+        if i%5 ==0:
+
+            sum += i
+
+    return sum
+ 

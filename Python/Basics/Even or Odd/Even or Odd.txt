@@ -1,0 +1,9 @@
+number = 21
+
+if number > 0:
+    value = 'positive'
+elif number < 0:
+    value = 'negative'
+else:
+    value = 'zero'
+

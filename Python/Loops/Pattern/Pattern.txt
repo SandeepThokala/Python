@@ -1,0 +1,10 @@
+def pattern (str_1, str_2) :
+    a = ''
+    for i in range(10):
+        if i%2 != 0:
+            a += str_1 +'-'+str_2
+        else:
+            a += str_1 +'|'+str_2
+    return a
+    # todo
+    # return the pattern

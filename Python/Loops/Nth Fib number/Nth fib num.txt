@@ -1,0 +1,24 @@
+# What is the Fibonacci series ? It is a series of numbers in which each number ( Fibonacci number )
+
+# is the sum of the two preceding numbers. The simplest is the series 1, 1, 2, 3, 5, 8, etc.
+
+
+# Write a function fib (n) that takes in a number and returns the nth Fibonacci number
+
+
+
+def fib (n) :
+
+    a = 1
+
+    b = 1
+
+    for i in range(0,n - 2):
+
+        a = a + b
+
+        b = a - b
+
+    return  b
+
+  

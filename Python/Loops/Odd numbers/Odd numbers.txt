@@ -1,0 +1,15 @@
+# Find all the odd numbers between 1 and 20. Append them to a string with spaces in between. Like so
+
+
+
+
+odd_numbers = ''
+
+numbers = range(20)
+
+for i in numbers:
+    
+	if i%2 != 0:
+        
+		odd_numbers = odd_numbers + str(i) + ' ' 
+    
